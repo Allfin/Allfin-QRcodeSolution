@@ -58,7 +58,7 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
-media (max-width: 375px){
+@media (max-width: 375px){
   .card{
     margin: 0px 20px;
   }
