@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+  font-size: 10px;
+}
+
+/* === Layout === */
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  border-radius: 10px;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card_title {
+  padding: 15px 0;
+}
+
+.card_text {
+  padding-bottom: 20px;
+}
+
+/* === Typography === */
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
